@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Project portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="topnav" id="myTopnav">
+        <a class="active" href="#home" id="navHome">
+          <i class="fa fa-fw fa-home"></i> Home
+        </a>
+        <a href="#projects" id="navProjects"
+          ><i class="fa fa-fw fa-book"></i> Projects</a
+        >
+        <a href="#contact" id="navContact"
+          ><i class="fa fa-fw fa-envelope"></i> Contact</a
+        >
+        <a href="#about" id="navAbout"
+          ><i class="fa fa-fw fa-info"></i> About</a
+        >
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <a href="#home"></a>
+        <h2>Welcome to My Portfolio</h2>
+        <p>
+          Discover my projects and get in touch to collaborate on exciting new
+          ventures.
+        </p>
+        <div class="flex-container">
+          <button class="cta-button">Get Started</button>
+        </div>
+      </section>
+      <section id="projects">
+        <a href="#projects"></a>
+        <h2>Projects</h2>
+        <p>Some of the projects I have worked on recently.</p>
+        <div class="flex-container">
+          <div class="card">
+            <img
+              src="webd_c.jpg"
+              alt="The project avatar, picture of the word wed design."
+            />
+            <div class="container">
+              <h4>
+                <b>Project 1</b>
+              </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia perferendis sint voluptatem est quae eligendi temporibus et magni quas vel, aspernatur, ipsa magnam impedit delectus odio porro. Deserunt, voluptatum!</p>
+            </div>
+          </div>
+            <div class="card">
+              <img
+                src="webd_c.jpg"
+                alt="The project avatar, picture of the word wed design."
+              />
+              <div class="container">
+                <h4>
+                  <b>Project 2</b>
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia perferendis sint voluptatem est quae eligendi temporibus et magni quas vel, aspernatur, ipsa magnam impedit delectus odio porro. Deserunt, voluptatum!</p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="webd_c.jpg"
+                alt="The project avatar, picture of the word wed design."
+              />
+              <div class="container">
+                <h4>
+                  <b>Project 3</b>
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia perferendis sint voluptatem est quae eligendi temporibus et magni quas vel, aspernatur, ipsa magnam impedit delectus odio porro. Deserunt, voluptatum!</p>
+              </div>
+            </div>
+      </section>
+      <div class="section-container">
+        <aside id="skills">
+          <a href="#skills"></a>
+          <h2>Skills</h2>
+          <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Web Performance Optimization</li>
+            <li>SEO</li>
+            <li>Accessibility</li>
+            <li>Version Control (Git)</li>
+            <li>Web Security</li>
+            <li>UI/UX Design</li>
+          </ul>
+        </aside>
+        <section id="contact">
+          <a href="#contact"></a>
+          <h2>Contact</h2>
+          <p>Get in touch to discuss potential collaborations.</p>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
